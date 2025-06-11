@@ -1,3 +1,5 @@
+package com.libreria;
+
 public class Libro {
     private int idLibro;
     private String titulo;
@@ -15,6 +17,7 @@ public class Libro {
         this.precio = precio;
     }
 
+    // Getters y setters
     public int getIdLibro() { return idLibro; }
     public void setIdLibro(int idLibro) { this.idLibro = idLibro; }
 

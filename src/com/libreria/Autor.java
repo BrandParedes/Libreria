@@ -1,3 +1,5 @@
+package com.libreria;
+
 public class Autor {
     private int idAutor;
     private String nombre;

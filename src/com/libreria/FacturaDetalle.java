@@ -1,3 +1,5 @@
+package com.libreria;
+
 public class FacturaDetalle {
     private int idDetalle;
     private Libro libro;      // Inyección de dependencia
