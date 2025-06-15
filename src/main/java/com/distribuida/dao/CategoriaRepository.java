@@ -1,7 +1,12 @@
 package com.distribuida.dao;
 
-public class CategoriaRepository {
-    public void guardarCategoria(String nombre) {
-        System.out.println("Categoría guardada: " + nombre);
-    }
+import com.libreria.Categoria;
+import java.util.List;
+
+public interface CategoriaRepository {
+    Categoria findById(int id);
+    List<Categoria> findAll();
+    void insert(Categoria categoria);
+    void update(Categoria categoria);
+    void delete(int id);
 }
